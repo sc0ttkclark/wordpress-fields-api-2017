@@ -1,0 +1,15 @@
+{
+  "name": "wordpress-fields-api",
+  "version": "0.0.7-a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sc0ttkclark/wordpress-fields-api.git"
+  },
+  "main": "Gruntfile.js",
+  "author": "Scott Kingsley Clark and Helen Hou-sandí",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-phpcs": "^0.4.0",
+    "phplint": "^1.2.0"
+  }
+}
