@@ -1,8 +1,8 @@
 {
-    "name": "sc0ttkclark/wordpress-fields-api",
+    "name": "sc0ttkclark/wordpress-fields-api-2017",
     "type": "wordpress-plugin",
     "description": "A generalized API to interact with and register fields for objects in WordPress.",
-    "homepage": "https://github.com/sc0ttkclark/wordpress-fields-api",
+    "homepage": "https://github.com/sc0ttkclark/wordpress-fields-api-2017",
     "license": "GPL2+",
     "authors": [
         {
@@ -15,7 +15,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/sc0ttkclark/wordpress-fields-api/issues"
+        "issues": "https://github.com/sc0ttkclark/wordpress-fields-api-2017/issues"
     },
     "require": {
         "composer/installers": "~1.0"
@@ -24,7 +24,7 @@
         "wp-coding-standards/wpcs": "dev-develop"
     },
     "extra": {
-        "installer-name": "wordpress-fields-api"
+        "installer-name": "wordpress-fields-api-2017"
     },
     "scripts": {
         "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs",

@@ -25,11 +25,11 @@
 
 Forms in the Fields API are more commonly linked to what appear in the WordPress Admin area as WP_Screen. A few come with the Fields API itself, but you can register new forms to your heart's content and output them wherever you'd like.
 
-See [Custom Component Classes](https://github.com/sc0ttkclark/wordpress-fields-api/blob/master/docs/custom-component-classes.md) for examples of creating forms with custom saving and rendering.
+See [Custom Component Classes](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/master/docs/custom-component-classes.md) for examples of creating forms with custom saving and rendering.
 
 ### Registering forms
 
-When a form needs no custom saving or rendering mechanism (see [Creating an Implementation](https://github.com/sc0ttkclark/wordpress-fields-api/blob/master/docs/creating-an-implementation.md)), it can be registered through the `fields_register` action, using code like this:
+When a form needs no custom saving or rendering mechanism (see [Creating an Implementation](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/master/docs/creating-an-implementation.md)), it can be registered through the `fields_register` action, using code like this:
 
 ```php
 // Object type and Form ID

@@ -17,26 +17,26 @@ This was initially a project of the [WordPress core Options/Metadata team](http:
 
 = Documentation =
 
-* [Terminology](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/terminology.md)
-* [API Reference](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/api-reference.md)
-* [Object Types and Object Subtypes](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/object-types-and-names.md)
-* [Registering Fields (in depth)](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/registering-fields.md)
-* [Creating an Implementation (advanced)](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/creating-an-implementation.md)
+* [Terminology](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/terminology.md)
+* [API Reference](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/api-reference.md)
+* [Object Types and Object Subtypes](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/object-types-and-names.md)
+* [Registering Fields (in depth)](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/registering-fields.md)
+* [Creating an Implementation (advanced)](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/creating-an-implementation.md)
 
 = Example Code =
 
 **User Profile Form:**
 
-* [Starter example](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/examples/user/_starter.php)
-* [Address section and fields example](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/examples/user/address.php)
+* [Starter example](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/examples/user/_starter.php)
+* [Address section and fields example](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/examples/user/address.php)
 
 **Term Add / Edit Form:**
 
-* [Starter example](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/examples/term/_starter.php)
+* [Starter example](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/examples/term/_starter.php)
 
 = Related links =
 
 * [Posts about the WP Fields API on the Official WordPress.org Development blog](https://make.wordpress.org/core/tag/fields-api/)
 * [Architecture Documentation](https://docs.google.com/document/d/17yUTO_vlkC7P4_2c6dIDxa5jQbXvfV9SofC7_GOwFME/edit)
-* [See the official GitHub for more information and bug reporting](https://github.com/sc0ttkclark/wordpress-fields-api)
+* [See the official GitHub for more information and bug reporting](https://github.com/sc0ttkclark/wordpress-fields-api-2017)
 * Join us in WordPress Slack in the #core-fields channel for our meetings Mondays at 21:00 UTC

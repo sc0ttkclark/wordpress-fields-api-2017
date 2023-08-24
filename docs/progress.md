@@ -60,13 +60,13 @@
 
 #### Details
 
-* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-user-edit.php) of the Edit User screen replaces core's entirely using the Fields API.
+* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-user-edit.php) of the Edit User screen replaces core's entirely using the Fields API.
 * Backwards compatible with existing actions and hooks being used to extend the Edit User screen.
 
 #### Examples
 
-* [Basic Starter Example](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/examples/user/_starter.php)
-* [Address Fields](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/examples/user/address.php)
+* [Basic Starter Example](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/examples/user/_starter.php)
+* [Address Fields](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/examples/user/address.php)
 
 #### Remaining tasks
 
@@ -82,7 +82,7 @@
 
 #### Details
 
-* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-post.php) of the Edit Post screen will replace core's entirely using the Fields API.
+* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-post.php) of the Edit Post screen will replace core's entirely using the Fields API.
 * Backwards compatible with some existing actions and hooks being used to extend the Edit Post screen.
 
 #### Remaining tasks
@@ -103,12 +103,12 @@
 
 #### Details
 
-* Our internal implementations of the [Add Term](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-term-add.php) and [Edit Term](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-term.php) screen replaces core's entirely using the Fields API.
+* Our internal implementations of the [Add Term](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-term-add.php) and [Edit Term](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-term.php) screen replaces core's entirely using the Fields API.
 * Backwards compatible with existing actions and hooks being used to extend the Add Term and Edit Term screens.
 
 #### Examples
 
-* [Basic Starter Example](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/docs/examples/term/_starter.php)
+* [Basic Starter Example](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/docs/examples/term/_starter.php)
 
 #### Remaining tasks
 
@@ -124,7 +124,7 @@
 
 #### Details
 
-* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-comment.php) of the Edit Comment screen will replace core's entirely using the Fields API.
+* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/class-wp-fields-api-form-comment.php) of the Edit Comment screen will replace core's entirely using the Fields API.
 * Backwards compatible with some existing actions and hooks being used to extend the Edit Comment screen.
 
 #### Remaining tasks
@@ -145,13 +145,13 @@
 
 #### Details
 
-* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/settings/) of the Settings pages replace core's entirely using the Fields API.
-  * [General](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-general.php)
-  * [Reading](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-reading.php)
-  * [Writing](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-writing.php)
-  * [Permalink](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-permalink.php)
-* [Register Sections and Fields to Settings API](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-settings-api.php) based on what's been registered to the Fields API
-* [Settings API calling Fields API for config and rendering](https://github.com/sc0ttkclark/wordpress-fields-api/blob/develop/implementation/wp-admin/includes/template.php), not testable because functions can't be overridden in wp-admin/includes/template.php
+* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/settings/) of the Settings pages replace core's entirely using the Fields API.
+  * [General](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-general.php)
+  * [Reading](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-reading.php)
+  * [Writing](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-writing.php)
+  * [Permalink](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-form-settings-permalink.php)
+* [Register Sections and Fields to Settings API](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-includes/fields-api/forms/settings/class-wp-fields-api-settings-api.php) based on what's been registered to the Fields API
+* [Settings API calling Fields API for config and rendering](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/develop/implementation/wp-admin/includes/template.php), not testable because functions can't be overridden in wp-admin/includes/template.php
 
 #### Remaining tasks
 
@@ -170,7 +170,7 @@
 
 #### Details
 
-* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api/pull/69) of the Widget forms will integrate with WP_Widget to allow form fields to be registered for widgets and rendered/saved automatically without the custom code every widget ends up needing currently.
+* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api-2017/pull/69) of the Widget forms will integrate with WP_Widget to allow form fields to be registered for widgets and rendered/saved automatically without the custom code every widget ends up needing currently.
 
 #### Remaining tasks
 
@@ -188,7 +188,7 @@
 
 #### Details
 
-* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api/pull/68) of the Nav Menu Items overrides the core Walker class used for building the Nav Menu Item forms, and uses the Fields API to output registered controls.
+* Our [internal implementation](https://github.com/sc0ttkclark/wordpress-fields-api-2017/pull/68) of the Nav Menu Items overrides the core Walker class used for building the Nav Menu Item forms, and uses the Fields API to output registered controls.
 
 #### Remaining tasks
 
@@ -223,4 +223,4 @@ Looking for contributors
 
 #### Remaining tasks
 
-* We currently have limited direct integration with the REST API, but we'd like to work with the REST API team towards [implementing REST API options](https://github.com/sc0ttkclark/wordpress-fields-api/issues/39) and building in addition configurations the REST API can consume for it's endpoint(s).
+* We currently have limited direct integration with the REST API, but we'd like to work with the REST API team towards [implementing REST API options](https://github.com/sc0ttkclark/wordpress-fields-api-2017/issues/39) and building in addition configurations the REST API can consume for it's endpoint(s).

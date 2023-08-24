@@ -18,7 +18,7 @@
 		</blacklist>
 		<whitelist>
 			<directory suffix=".php">./includes</directory>
-			<file>./wordpress-fields-api.php</file>
+			<file>./wordpress-fields-api-2017.php</file>
 		</whitelist>
 	</filter>
 

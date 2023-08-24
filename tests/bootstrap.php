@@ -25,7 +25,7 @@ if ( false !== getenv( 'WP_DEVELOP_DIR' ) ) {
 require $test_root . '/includes/functions.php';
 
 function _manually_load_plugin() {
-	require dirname( __FILE__ ) . '/../wordpress-fields-api.php';
+	require dirname( __FILE__ ) . '/../wordpress-fields-api-2017.php';
 }
 tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
 

@@ -14,7 +14,7 @@
 
 ## Prerequisite
 
-You should be familiar with the normal [Fields API Registration](https://github.com/sc0ttkclark/wordpress-fields-api/blob/master/docs/registering-fields.md).
+You should be familiar with the normal [Fields API Registration](https://github.com/sc0ttkclark/wordpress-fields-api-2017/blob/master/docs/registering-fields.md).
 
 ## Sections
 
